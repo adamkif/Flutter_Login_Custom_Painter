@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class DiagonalBackground extends StatelessWidget {
-  const DiagonalBackground({Key? key}) : super(key: key);
+class WavesBackground extends StatelessWidget {
+  const WavesBackground({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,13 +9,13 @@ class DiagonalBackground extends StatelessWidget {
       width: double.infinity,
       height: double.infinity,
       child: CustomPaint(
-        painter: DiagonalPainter(),
+        painter: WavesPainter(),
       ),
     );
   }
 }
 
-class DiagonalPainter extends CustomPainter {
+class WavesPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
@@ -23,10 +23,20 @@ class DiagonalPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
 
     final path = Path()
-      ..lineTo(0, size.height * 0.5)
-      ..lineTo(size.width, size.height * 0.4)
+      ..lineTo(0, size.height * 0.3)
+      ..quadraticBezierTo(
+        size.width * 0.25,
+        size.height * 0.35,
+        size.width * 0.5,
+        size.height * 0.3,
+      )
+      ..quadraticBezierTo(
+        size.width * 0.75,
+        size.height * 0.25,
+        size.width,
+        size.height * 0.3,
+      )
       ..lineTo(size.width, 0);
-    // ..lineTo(0, 0);
 
     canvas.drawPath(path, paint);
   }
