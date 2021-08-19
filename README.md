@@ -1,16 +1,31 @@
-# flutter_login_custom_painter
+# Flutter Login Custom Painter
 
-A new Flutter project.
+Project Flutter Login Custom Painter.
 
-## Getting Started
+## Your Coffee allows me to excel, Gracias ☕
 
-This project is a starting point for a Flutter application.
+<a href="https://www.buymeacoffee.com/adamkif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/adam-kif/SwiftUI-Loading-Animation/blob/main/Screenshot/BuyMeACoffee.png" alt="Buy Me A Coffee" /></a>
 
-A few resources to get you started if this is your first Flutter project:
+### Background: Curve | Diagonal | Radius Circular.
+<div align="center" width="100%">
+ <img width="30%" src="https://github.com/adamkif/Flutter_Circular_Progress_Bar/blob/master/Screenshot/Curve.png"
+      alt="Curve">
+ <img width="30%" src="https://github.com/adamkif/Flutter_Circular_Progress_Bar/blob/master/Screenshot/Diagonal.png"
+      alt="Diagonal">
+ <img width="30%" src="https://github.com/adamkif/Flutter_Circular_Progress_Bar/blob/master/Screenshot/RadiusCircular.png"
+      alt="RadiusCircular">
+</div>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Background: Rhombus | Triangle | Waves.
+<div align="center" width="100%">
+ <img width="30%" src="https://github.com/adamkif/Flutter_Circular_Progress_Bar/blob/master/Screenshot/Rhombus.png"
+      alt="Rhombus">
+ <img width="30%" src="https://github.com/adamkif/Flutter_Circular_Progress_Bar/blob/master/Screenshot/Triangle.png"
+      alt="Triangle">
+ <img width="30%" src="https://github.com/adamkif/Flutter_Circular_Progress_Bar/blob/master/Screenshot/Waves.png"
+      alt="Waves">
+</div>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+
+Contributions are always welcome!

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_login_custom_painter/widgets/waves_gradient_BG.dart';
+import 'package:flutter_login_custom_painter/widgets/curve_background.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -7,14 +7,14 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // body: CurveBackground(),
+      body: CurveBackground(),
       // body: DiagonalBackground(),
       // body: RadiusCircularBG(),
       // body: RhombusBackground(),
       // body: SquareBackground(),
       // body: TriangleBackground(),
       // body: WavesBackground(),
-      body: WavesGradientBG(),
+      // body: WavesGradientBG(),
     );
   }
 }

@@ -23,8 +23,8 @@ class DiagonalPainter extends CustomPainter {
       ..style = PaintingStyle.fill;
 
     final path = Path()
-      ..lineTo(0, size.height * 0.5)
-      ..lineTo(size.width, size.height * 0.4)
+      ..lineTo(0, size.height * 0.4)
+      ..lineTo(size.width, size.height * 0.3)
       ..lineTo(size.width, 0);
     // ..lineTo(0, 0);
 
